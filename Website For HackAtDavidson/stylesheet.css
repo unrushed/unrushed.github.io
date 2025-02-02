@@ -1,0 +1,105 @@
+.containerforbuttonthing {
+    height: 200px;
+    position: relative;
+}
+  
+.centerbuttonthing {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.titletext{
+    font-size: 128px;
+}
+.splashCoverthing{
+    
+    height: 400px;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    height: 925px;
+    position: relative;
+
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+body{
+    margin: 0;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-inthing {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+    font-size: 72px;
+    padding-left: 100px;
+    padding-top: 20.0vw;
+    color: white;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-inthingbody {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+    
+
+
+}
+.buttonthing{
+    font-size: 32px;
+    height: 75px;
+    width: 250px;
+    background-color: #8EC5FC;
+    transition: background 1s ease;
+    border: none;
+    border-radius: 40px / 40px;
+
+}
+
+.buttonthing:hover{
+    transition: background 1s ease;
+    background-color: #E0C3FC;
+    border: none;
+
+
+}
+.bodysection{
+    background-color: rgb(253, 253, 253);
+    height: 900px;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth
+}
+.subtitlething{
+    font-size: 68px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-left: 120px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+}
+.textcenterthing{
+    text-align: center;
+}
+.img{
+    border-radius: 50%;
+}
